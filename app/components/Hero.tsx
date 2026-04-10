@@ -61,11 +61,11 @@ export default function Hero() {
 
           {/* Name */}
           <div style={t(0.2)}>
-            <h1 className="leading-[0.88] mb-6" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300 }}>
+            <h1 className="mb-6" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, lineHeight: 0.9 }}>
               <span className="block text-[#ede8e3]" style={{ fontSize: "clamp(3.5rem, 10vw, 8rem)" }}>
                 Maneesha
               </span>
-              <span className="block shimmer" style={{ fontSize: "clamp(3.5rem, 10vw, 8rem)", fontStyle: "italic", fontWeight: 400 }}>
+              <span className="block shimmer" style={{ fontSize: "clamp(3.5rem, 10vw, 8rem)", fontStyle: "italic", fontWeight: 400, paddingBottom: "0.2em", display: "block" }}>
                 Devadiga
               </span>
             </h1>
